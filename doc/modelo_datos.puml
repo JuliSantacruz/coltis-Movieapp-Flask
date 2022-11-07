@@ -9,7 +9,7 @@ Entity Movie{
 }
 
 Entity Review{
-    id int(8) <<PK>>
+    id int(8) <auto increment> <<PK>>
     name varchar(100) <<NN>>
     email varchar(100) <<NN>>
     description varchar(4000) <<NN>>
