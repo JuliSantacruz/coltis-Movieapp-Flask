@@ -7,6 +7,7 @@ Entity Movie{
     year int(4)
 }
 
+
 Entity Review{
     id int(8) <auto increment> <<PK>>
     name varchar(100) <<NN>>
